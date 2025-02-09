@@ -1,4 +1,4 @@
-import iSalarioStrategy from './iSalarioStrategy.ts';
+import {type iSalarioStrategy} from './iSalarioStrategy.ts';
 
 export class SalarioAdicional implements iSalarioStrategy {
 

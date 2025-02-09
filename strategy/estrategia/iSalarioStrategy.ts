@@ -1,4 +1,4 @@
-export default interface iSalarioStrategy {
+export interface iSalarioStrategy {
     
     calcularSalario(salario: number): number;
 }
