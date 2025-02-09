@@ -1,6 +1,6 @@
 import iSalarioStrategy from '../estrategia/iSalarioStrategy.ts';
 
-export class Gerente {
+export class Funcionario {
     
     _salario: number;
     _salarioStrategy: iSalarioStrategy;
