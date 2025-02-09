@@ -1,10 +1,10 @@
-import iSalarioStrategy from '../estrategia/iSalarioStrategy.ts';
+import { type iSalarioStrategy} from '../estrategia/iSalarioStrategy.ts';
 
 export class Funcionario {
     
-    _salario: number;
-    _salarioStrategy: iSalarioStrategy;
-
+    private _salario: number;
+    private _salarioStrategy: iSalarioStrategy;
+    
     constructor(salario: number) {
         this._salario = salario;
     }
@@ -17,13 +17,11 @@ export class Funcionario {
         return this._salarioStrategy;
     }
 
-    calcularSalario(): number {
+    public calcularSalario(): number {
         if (this._salarioStrategy !== null && this._salarioStrategy !== undefined) {
             return this._salarioStrategy.calcularSalario(this._salario);
         }
 
         return this._salario;
     }
-
-
 }
