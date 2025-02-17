@@ -1,5 +1,5 @@
-import { AbstractVeiculo } from "./AbstractVeiculo.ts";
-import { type iVeiculo } from "./iVeiculo.ts";
+import { AbstractVeiculo } from "./base/AbstractVeiculo.ts";
+import { type iVeiculo } from "./base/iVeiculo.ts";
 
 export class Moto extends AbstractVeiculo implements iVeiculo {
     

@@ -1,5 +1,5 @@
-import { VeiculoEnum } from "./veiculo/VeiculoEnum.ts";
-import { VeiculoFactory } from "./veiculo/VeiculoFactory.ts";
+import { VeiculoEnum } from "./veiculo/base/VeiculoEnum.ts";
+import { VeiculoFactory } from "./veiculo/base/VeiculoFactory.ts";
 
 class Cliente {
 

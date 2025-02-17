@@ -1,6 +1,6 @@
-import { Carro } from "./Carro.ts";
+import { Carro } from "../Carro.ts";
 import { type iVeiculo } from "./iVeiculo.ts";
-import { Moto } from "./Moto.ts";
+import { Moto } from "../Moto.ts";
 import { VeiculoEnum } from "./VeiculoEnum.ts";
 
 export class VeiculoFactory {
